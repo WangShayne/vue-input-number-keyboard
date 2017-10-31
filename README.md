@@ -19,13 +19,13 @@
 ## Usage
 
 ``` 
-npm install vue-number-keyboard
+npm install vue-input-number-keyboard
 ```
 
 main.js
 
 ```
-import vueNumberKeyboard from "vue-number-keyboard"
+import vueNumberKeyboard from "vue-input-number-keyboard"
 Vue.use(vueNumberKeyboard)
 ```
 A.vue
