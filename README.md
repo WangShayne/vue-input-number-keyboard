@@ -14,7 +14,7 @@
 | input             |                                               |get input value |
 
 ## GIF
-
+![Alt text](./src/assets/2.gif)
 
 ## Usage
 
