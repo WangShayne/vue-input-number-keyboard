@@ -1,13 +1,13 @@
-import vueNumberKeyboard from "./vue-number-keyboard.vue"
+import vueInputNumberKeyboard from "./vue-input-number-keyboard.vue"
 
-const numberKeyboard = {
+const inputNumberKeyboard = {
     install(Vue,options){
-        Vue.component(vueNumberKeyboard.name,vueNumberKeyboard)
+        Vue.component(vueInputNumberKeyboard.name,vueInputNumberKeyboard)
     }
 }
 
 if(typeof window !== "undefined" && window.Vue){
-    window.Vue.use(numberKeyboard)
+    window.Vue.use(inputNumberKeyboard)
 }
 
-export default numberKeyboard
+export default inputNumberKeyboard

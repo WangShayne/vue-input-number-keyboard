@@ -17,7 +17,7 @@
 
 <script>
     export default {
-        name:"vueNumberKeyboard",
+        name:"vueInputNumberKeyboard",
         props:{
             show:{
                 type:Boolean,
